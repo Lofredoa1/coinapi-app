@@ -6,7 +6,7 @@ const Price = (props) => {
 
     const symbol = props.match.params.symbol
 
-    const url = `http://rest.coinapi.io/v1/exchangerate/${symbol}/USD?apikey=${apiKey}`;
+    const url = `https://rest.coinapi.io/v1/exchangerate/${symbol}/USD?apikey=${apiKey}`;
 
     const [coin, setCoin] = useState(null)
 
